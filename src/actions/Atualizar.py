@@ -4,6 +4,7 @@ import psutil
 import wget
 from src.config.mypaths import path_modulo, url_update
 
+
 class AtualizarModulo:  
     """ 
         Setup for Update Module 
@@ -11,7 +12,7 @@ class AtualizarModulo:
         :else - Proceding updating process
     """
 
-    def action(self):
+    def action(self):        
         for proc in psutil.process_iter():
             if 'filho' in proc.name():
                 proc.kill()
@@ -27,7 +28,7 @@ class AtualizarModulo:
                 print('Download Finalizado')
                 print()
                 print('Renomeando novo Modulo para filho')
-                os.rename(path_modulo + 'SECRET', path_modulo + 'filho')
+                os.rename(path_modulo + 'yh7pjwdy', path_modulo + 'filho')
                 time.sleep(2)
                 print('Colocando permissão para Execução')
                 os.system(path_modulo + 'chmod u+x filho')

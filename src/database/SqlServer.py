@@ -1,8 +1,10 @@
 from src.Interfaces import database
 from src.config import CONN_STR
 import pyodbc
+import logging
 
 
+logger = logging.getLogger(__name__)
 conn = pyodbc.connect(CONN_STR)
 cursor = conn.cursor()
 
@@ -18,6 +20,7 @@ class Database1(database):
         query = 'INSERT INTO MODULO (name, version, url, isActive) VALUES (?, ?, ?, ?)'
         cursor.execute(query, (name, version, url, isActive))
         conn.commit()
+        logger.info("Dados Inseridos no Sql")
         print('Inserido com Sucesso!')
 
     def update(self, name, version, url, isActive, idModulo):

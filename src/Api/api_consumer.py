@@ -4,7 +4,8 @@ from typing import Type
 # from collections import namedtuple
 
 
-class ApiConsumer:
+
+class ApiConsumer:    
     """ Config Class Api  """
     # def __init__(self) -> None:
     #     self.get_modulos_id_response = namedtuple('Get_Data_Api', 'response')

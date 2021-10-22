@@ -9,18 +9,24 @@ from src.actions.CheckVersion import VersionModule
 from src.actions.CheckStateModule import StateModule
 from src.database.SqlServer import Database1
 from src.Api.api_consumer import ApiConsumer
+from src.config import conf
+import logging, logging.config
 
 
+logging.config.dictConfig(conf.dictConfig)
+logger = logging.getLogger(__name__)
 
 start_time = datetime.now().replace(microsecond=0)
 
 def main():
+    logger.debug("Starting Script Server")
     print('Sistema Iniciado')
     print()
     time.sleep(1)    
     
     #Faz Requisição da Api
     get_data_from_api = ApiConsumer()
+    logger.debug("Request Api ")
     response = get_data_from_api.get_modulos_id('1')
     print(response)    
     print()
@@ -29,6 +35,7 @@ def main():
     #Insere no banco o Resultado da Requisição da Api 
     #Database1 = SqlServer / database2 = Sqlite
     mydb = UseDatabase(Database1())
+    logger.debug("Acess Database ")
     print('Inserindo dados da Api...')
     mydb.database.insert(response['Modulos'][0]['name'], response['Modulos'][0]['version'], 
                          response['Modulos'][0]['url'], response['Modulos'][0]['isActive'])
@@ -37,7 +44,8 @@ def main():
 
     #Checando a Versão do Modulo para Updates
     print('Checa a Versão do Modulo para Updates')
-    check_version = Modules(VersionModule())        
+    check_version = Modules(VersionModule()) 
+    logger.debug("Get Version Modules ")       
     check_version.make_action()    
     time.sleep(2)
     print()
@@ -46,9 +54,10 @@ def main():
     #Caso Modulo esteja parado ele irá iniciar automáticamente
     print('Verificando o estado do Modulo')
     state_modulo = Modules(StateModule())
+    logger.debug("Check State Module ")
     state_modulo.make_action()
     time.sleep(2)
-    print()
+    print() 
 
 
     CPU_Pct = str(round(float(

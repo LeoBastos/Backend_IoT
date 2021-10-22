@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-CONN_STR = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER=.;DATABASE=SEUBANCO;UID=sa;PWD=SUASENHA'
+CONN_STR = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER=.;DATABASE=criareDB;UID=sa;PWD=-00388ut32Leo'
 
 database_config = {    
     "driver": os.getenv('DRIVER'),

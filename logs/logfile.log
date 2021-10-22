@@ -1,0 +1,88 @@
+2021-10-20 11:42:33,167 [DEBUG] __main__:: Starting Script Server
+2021-10-20 11:42:34,168 [DEBUG] __main__:: Request for Api 
+2021-10-20 11:42:36,175 [DEBUG] __main__:: Acess Database 
+2021-10-20 11:42:54,304 [DEBUG] __main__:: Starting Script Server
+2021-10-20 11:42:55,305 [DEBUG] __main__:: Request for Api 
+2021-10-20 11:42:57,312 [DEBUG] __main__:: Acess Database 
+2021-10-20 11:44:48,601 [DEBUG] __main__:: Starting Script Server
+2021-10-20 11:44:49,602 [DEBUG] __main__:: Request for Api 
+2021-10-20 11:44:51,611 [DEBUG] __main__:: Acess Database 
+2021-10-20 11:45:26,768 [DEBUG] __main__:: Starting Script Server
+2021-10-20 11:45:27,769 [DEBUG] __main__:: Request for Api 
+2021-10-20 11:45:29,777 [DEBUG] __main__:: Acess Database 
+2021-10-20 11:52:29,810 [DEBUG] __main__:: Starting Script Server
+2021-10-20 11:52:30,813 [DEBUG] __main__:: Request Api 
+2021-10-20 11:52:32,819 [DEBUG] __main__:: Acess Database 
+2021-10-20 11:52:34,827 [DEBUG] __main__:: Get Version Modules 
+2021-10-20 11:52:38,836 [DEBUG] __main__:: Check State Module 
+2021-10-20 11:53:30,191 [DEBUG] __main__:: Starting Script Server
+2021-10-20 11:53:31,192 [DEBUG] __main__:: Request Api 
+2021-10-20 11:53:33,199 [DEBUG] __main__:: Acess Database 
+2021-10-20 11:53:35,206 [DEBUG] __main__:: Get Version Modules 
+2021-10-20 11:53:39,215 [DEBUG] __main__:: Check State Module 
+2021-10-20 11:54:32,496 [DEBUG] __main__:: Starting Script Server
+2021-10-20 11:54:33,497 [DEBUG] __main__:: Request Api 
+2021-10-20 11:54:35,506 [DEBUG] __main__:: Acess Database 
+2021-10-20 11:54:37,515 [DEBUG] __main__:: Get Version Modules 
+2021-10-20 11:54:41,525 [DEBUG] __main__:: Check State Module 
+2021-10-20 14:04:45,462 [DEBUG] __main__:: Starting Script Server
+2021-10-20 14:04:46,464 [DEBUG] __main__:: Request Api 
+2021-10-20 14:04:48,473 [DEBUG] __main__:: Acess Database 
+2021-10-20 14:06:16,596 [DEBUG] __main__:: Starting Script Server
+2021-10-20 14:06:17,597 [DEBUG] __main__:: Request Api 
+2021-10-20 14:06:19,611 [DEBUG] __main__:: Acess Database 
+2021-10-20 14:06:21,619 [DEBUG] __main__:: Get Version Modules 
+2021-10-20 14:06:25,627 [DEBUG] __main__:: Check State Module 
+2021-10-20 15:09:43,948 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:09:44,949 [DEBUG] __main__:: Request Api 
+2021-10-20 15:09:46,955 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:11:45,253 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:11:46,254 [DEBUG] __main__:: Request Api 
+2021-10-20 15:11:48,260 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:12:51,938 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:12:52,938 [DEBUG] __main__:: Request Api 
+2021-10-20 15:12:54,945 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:14:25,198 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:14:26,199 [DEBUG] __main__:: Request Api 
+2021-10-20 15:14:28,206 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:15:08,923 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:15:09,925 [DEBUG] __main__:: Request Api 
+2021-10-20 15:15:11,934 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:16:31,284 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:16:32,285 [DEBUG] __main__:: Request Api 
+2021-10-20 15:16:34,294 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:17:27,103 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:17:28,104 [DEBUG] __main__:: Request Api 
+2021-10-20 15:17:30,110 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:21:11,338 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:21:12,339 [DEBUG] __main__:: Request Api 
+2021-10-20 15:21:14,346 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:25:17,757 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:25:18,758 [DEBUG] __main__:: Request Api 
+2021-10-20 15:25:20,767 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:26:47,893 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:26:48,894 [DEBUG] __main__:: Request Api 
+2021-10-20 15:26:50,902 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:27:30,134 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:27:31,134 [DEBUG] __main__:: Request Api 
+2021-10-20 15:27:33,141 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:31:52,642 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:31:53,644 [DEBUG] __main__:: Request Api 
+2021-10-20 15:31:55,651 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:32:48,855 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:32:49,857 [DEBUG] __main__:: Request Api 
+2021-10-20 15:32:51,866 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:34:53,803 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:34:54,804 [DEBUG] __main__:: Request Api 
+2021-10-20 15:34:56,813 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:35:22,914 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:35:23,915 [DEBUG] __main__:: Request Api 
+2021-10-20 15:35:25,923 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:35:57,592 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:35:58,593 [DEBUG] __main__:: Request Api 
+2021-10-20 15:36:00,603 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:37:04,388 [DEBUG] __main__:: Starting Script Server
+2021-10-20 15:37:05,389 [DEBUG] __main__:: Request Api 
+2021-10-20 15:37:07,397 [DEBUG] __main__:: Acess Database 
+2021-10-20 15:37:09,405 [DEBUG] __main__:: Get Version Modules 
+2021-10-20 15:37:13,415 [DEBUG] __main__:: Check State Module 
