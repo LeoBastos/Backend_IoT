@@ -2,6 +2,7 @@ from src.Api.api_consumer import ApiConsumer
 from src.classes.IoT import Modules
 from src.actions.Atualizar import AtualizarModulo
 from src.actions.Parar import PararModulo
+from src.actions.Iniciar import IniciarModulo
 import time
 
 class VersionModule:
@@ -20,3 +21,7 @@ class VersionModule:
             print('Iniciando Atualização')
             modulo1 = Modules(AtualizarModulo())
             modulo1.make_action()
+            print('Atualização finalizada')
+            print('Iniciando Modulo')
+            modulo3 = Modules(IniciarModulo())
+            modulo3.make_action()

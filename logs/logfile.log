@@ -86,3 +86,13 @@
 2021-10-20 15:37:07,397 [DEBUG] __main__:: Acess Database 
 2021-10-20 15:37:09,405 [DEBUG] __main__:: Get Version Modules 
 2021-10-20 15:37:13,415 [DEBUG] __main__:: Check State Module 
+2021-10-22 11:15:40,098 [DEBUG] __main__:: Starting Script Server
+2021-10-22 11:15:41,100 [DEBUG] __main__:: Request Api 
+2021-10-22 11:15:43,108 [DEBUG] __main__:: Acess Database 
+2021-10-22 11:15:45,119 [DEBUG] __main__:: Get Version Modules 
+2021-10-22 11:15:49,132 [DEBUG] __main__:: Check State Module 
+2021-10-22 11:27:08,424 [DEBUG] __main__:: Starting Script Server
+2021-10-22 11:27:09,425 [DEBUG] __main__:: Request Api 
+2021-10-22 11:27:11,432 [DEBUG] __main__:: Acess Database 
+2021-10-22 11:27:13,442 [DEBUG] __main__:: Get Version Modules 
+2021-10-22 11:27:17,454 [DEBUG] __main__:: Check State Module 

@@ -24,7 +24,11 @@ def main():
     print()
     time.sleep(1)    
     
-    #Faz Requisição da Api
+    """
+        Faz requisição da Api
+        :param - Id
+        :return - data from Api
+    """
     get_data_from_api = ApiConsumer()
     logger.debug("Request Api ")
     response = get_data_from_api.get_modulos_id('1')
@@ -32,8 +36,10 @@ def main():
     print()
     time.sleep(2)
 
-    #Insere no banco o Resultado da Requisição da Api 
-    #Database1 = SqlServer / database2 = Sqlite
+    """
+        Insere no banco de dados.
+        banco de dados: SQLServer ou Sqlite
+    """
     mydb = UseDatabase(Database1())
     logger.debug("Acess Database ")
     print('Inserindo dados da Api...')
@@ -42,7 +48,13 @@ def main():
     time.sleep(2)
     print()
 
-    #Checando a Versão do Modulo para Updates
+    """
+        Checa a Versão do Modulo registrado na Api
+        Se a Versão for != 3:
+        - StopModulo
+        - UpdateModulo
+        - StartModulo
+    """
     print('Checa a Versão do Modulo para Updates')
     check_version = Modules(VersionModule()) 
     logger.debug("Get Version Modules ")       
@@ -50,8 +62,11 @@ def main():
     time.sleep(2)
     print()
 
-    #Verifica o Estado do Modulo: Ativo ou Parado
-    #Caso Modulo esteja parado ele irá iniciar automáticamente
+    """
+        Verifica o estado Atual do Modulo
+        Se estiver ATIVO, ele ignora
+        Se estiver INATIVO, ele Ativa o modulo
+    """
     print('Verificando o estado do Modulo')
     state_modulo = Modules(StateModule())
     logger.debug("Check State Module ")
